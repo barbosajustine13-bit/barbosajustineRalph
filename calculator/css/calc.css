@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #36454f;
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    border: 2px solid #fff;
+    background-color: #000;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.display {
+    width: 75%;
+    padding: 15px;
+    font-size: 28px;
+    border: 2px solid #fff;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-align: right;
+    box-sizing: border-box;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ffa31a;
+    color: #000;
+}
+.display1{
+    width: 20%;
+    padding: 15px;
+    font-size: 28px;
+    border: 2px solid #333;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: right;
+    box-sizing: border-box;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #36454f;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    background: #292929;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+
+button:hover {
+    background: #ffa31a;
+}
+
+button:active {
+    background: #ffa31a;
+}
+.button1{
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    background: #36454f;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+.setOperator{
+    background-color: #ffa31a;
+}
+.setOperator:hover{
+    background-color: #36454f;
+}   
