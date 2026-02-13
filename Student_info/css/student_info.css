@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    border: 2px solid #fff;
+    background-color: yellowgreen;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+.student-form {
+    text-align: center; 
+    margin: 20px 0;
+    justify-content: center;
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.display {
+    width: 75%;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: right;
+    box-sizing: border-box;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #000;
+    border: #000 solid 2px;
+}
+.submitStudentInfo {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+button:hover {
+    background-color: #555;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    border: #000 solid 2px;
+}
